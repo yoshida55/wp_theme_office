@@ -11,8 +11,11 @@
      =============================================== -->
 <main>
   <section class="news_area">
-    <h2 class="title">News</h2>
-    <p class="subTitle">ニュース</p>
+    <!-- 【flex】titleとlineupを横並びにする -->
+    <div class="news_flex">
+      <h2 class="title_main">News</h2>
+      <a href="<?php echo get_template_directory_uri(); ?>/news.html" class="news_lineUp">すべて見る</a>
+    </div>
 
     <!-- wordPress化 -->
 
@@ -27,6 +30,7 @@
             <span class="news_category"><?php the_category(', '); ?></span>
             <p class="news_text"><?php the_title(); ?></p>
           </li>
+
 
 
       <?php
