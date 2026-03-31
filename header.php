@@ -1,5 +1,3 @@
-<?php echo basename(__FILE__); ?>
-
 <!doctype html>
 
 <!-- 変更 -->

@@ -128,8 +128,11 @@
   display: inline-block;
   margin: 0 0 1rem 2rem;
 
-  background-color: black;
   font-size: 1.2rem;
+}
+
+.news_category a {
+  background-color: black;
   color: white;
 }
 

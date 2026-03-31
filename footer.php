@@ -1,4 +1,3 @@
-    <?php echo basename(__FILE__); ?>
     <!-- ===============================================
        フッター
        =============================================== -->
@@ -9,6 +8,8 @@
         </div>
         <p class="copyright">© 2024 株式会社階段式. All rights reserved.</p>
     </footer>
+
+    <?php wp_footer(); ?>
     </body>
 
     </html>
