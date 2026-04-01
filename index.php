@@ -14,7 +14,7 @@
     <!-- 【flex】titleとlineupを横並びにする -->
     <div class="news_flex">
       <h2 class="title_main">News</h2>
-      <a href="<?php echo get_template_directory_uri(); ?>/news.html" class="news_lineUp">すべて見る</a>
+      <a href="<?php echo get_category_link(get_cat_ID('ニュース')); ?>" class="news_lineUp">すべて見る</a>
     </div>
 
     <!-- wordPress化 -->
